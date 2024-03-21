@@ -1,0 +1,20 @@
+.about-ctn {
+    background: url(../images/car55.jpg);
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-img {
+  background: url(../images/emmy-jaja-lloyd.jpg);
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  border: .5rem solid #000;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

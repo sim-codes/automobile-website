@@ -1,0 +1,13 @@
+<%- include('layout/header') %>
+
+<main class="container my-5">
+    <% if (users != '') { %>
+        <% users.forEach(user => { %>
+         <p><%= user.username %></p>
+        <% }) %>
+    <% } else { %>
+        <h1 class="text-secondary">Database is empty</h1>
+    <% } %>
+</main>
+
+<%- include('layout/footer') %>

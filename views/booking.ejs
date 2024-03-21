@@ -1,0 +1,35 @@
+<%- include('layout/header') %>
+
+<main class="container">
+    <h1 class="display-1 text-center">Book Online</h1>
+    <div class="row align-items-center mb-5 mt-3 border border-3 border-black py-2">
+        <div class="col-sm-6">
+            <a href="">
+                <img class="img-fluid" src="/images/Mercedez.jpg" alt="This is a Mercedez">
+            </a>
+        </div>
+        <div class="col-sm-6">
+            <p><span class="lead fw-bold">Style my ride</span> - Consultation</p>
+            <p>200 GBP /hr</p>
+            <p class="fw-bold">Select date and time for your appointment</p>
+            <form method="post" action="/bookings/request">
+                <input type="hidden" id="timeslot" name="timeslot" value="09:30" />
+                <input type="date" id="date-picker" name="date" value="" class="form-control form-control" required />
+                <div class="row">
+                    <div class="col" id="calendar"></div>
+                </div>
+                <div class="d-grid gap-2 d-md-block"></div> 
+                <button type="submit" class="btn btn-outline-dark bg-black px-3">Book Now</button>
+            </form>
+        </div>
+    </div>
+
+    
+    
+</main>
+
+
+
+<script src="/js/timeslots.js"></script>
+
+<%- include('layout/footer') %>
