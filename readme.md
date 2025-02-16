@@ -1,5 +1,5 @@
-# Final Site Folder
-Your final site code should go in here
+# Automobile Website 
+A Fullstack expressjs application for automobile service bookings
 
 
 ## How to Run the Project
